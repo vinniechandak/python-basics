@@ -11,3 +11,6 @@ while(count<10):
 
 for index, item in enumerate(a):
 	print index,". ", item;
+
+b = [x*x for x in a if x!=5] #list comprehension and for loop.
+print b;
