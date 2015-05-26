@@ -1,4 +1,8 @@
-class A:
+class A(object):
+	def printMethod(self):
+		print 'Hello World ! Classes are started !!';
 	pass;
 
-a = new A();
+a = A();
+a.printMethod();
+
