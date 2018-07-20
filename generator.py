@@ -7,9 +7,9 @@ def simplegen():
 a = simplegen();
 print(a);
 for item in a:
-    print
-    item
+    print(item)
 
+# a generator for generating element, square and cube of the element
 a = [lambda x: x,
      lambda x: x ** 2,
      lambda x: x ** 3]

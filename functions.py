@@ -1,21 +1,17 @@
 # This file includes functions in python.
 
 def mytest():
-    print
-    'This is test function.'
+    print('This is test function.')
 
 
 a = lambda x: x ** 2;
-print
-"Printing Lambda:", a;
+print("Printing Lambda:", a);
 
-print
-"Lambda Function call:", a(4);
+print("Lambda Function call:", a(4));
 
 
 def function_def_arg(x=5):
-    print
-    "Value of x:", x;
+    print("Value of x:", x);
 
 
 # calling functions.
@@ -24,22 +20,15 @@ function_def_arg(4);
 
 
 def function_arg_order(x, y=3, *z, **p):
-    print
-    "Value of x:", x;  # This is compulsory argument.
-    print
-    "Value of y:", y;  # This is optional argument with default value.
-    print
-    "Value of z:", z;  # Printing lists and tuples.
+    print("Value of x:", x);  # This is compulsory argument.
+    print("Value of y:", y);  # This is optional argument with default value.
+    print("Value of z:", z);  # Printing lists and tuples.
     for item in z:
-        print
-        "Value of item in args:", item;
-    print
-    "Value of p:", p;  # Printing dictionary arguments.
-    for key, item in p.iteritems():
-        print
-        "Key of dictionary:", key;
-        print
-        "Value of dictionary:", item;
+        print("Value of item in args:", item);
+    print("Value of p:", p);  # Printing dictionary arguments.
+    for key, item in p.items():
+        print("Key of dictionary:", key);
+        print("Value of dictionary:", item);
 
 
 # calling function
@@ -52,7 +41,5 @@ def function_return_multiple_values(x, y):
 
 # calling function
 a, b = function_return_multiple_values(2, 3);
-print
-"Return Value of first:", a;
-print
-"Return Value of second:", b;
+print("Return Value of first:", a);
+print("Return Value of second:", b);
