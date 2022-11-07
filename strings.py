@@ -8,9 +8,11 @@ b = "This is a double Quote String."
 c = """This string is spread across multiple lines.
 	Don't you believe this ??
 	Check then :P"""
+d = a + " " + b
 print(a);
 print(b);
 print(c);
+print(d);
 
 # example of translate.
 import string;
